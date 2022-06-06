@@ -1,8 +1,8 @@
 #include <stdio.h>
 /* prints strung and returns null*/
 
-/* main funcion starts here */
 int main(void)
+/* the main funcion */
 {
 /*main funcion prints string*/
 	puts("\"Programming is like building a multilingual puzzle");
