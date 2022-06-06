@@ -1,8 +1,12 @@
 #include <stdio.h>
-/* prints strung and returns null*/
+
+/**
+  * main - Entry point
+  *
+  * Return: Always 0 (Success)
+  */
 
 int main(void)
-/* the main funcion */
 {
 /*main funcion prints string*/
 	puts("\"Programming is like building a multilingual puzzle");
