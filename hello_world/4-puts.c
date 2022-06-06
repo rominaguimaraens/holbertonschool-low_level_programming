@@ -1,16 +1,10 @@
 #include <stdio.h>
-/**
- * Prints string and returns null
- */
+/* prints strung and returns null*/
 
-/**
- * main funcion prints string
- */
 int main(void)
 {
+/*main funcion prints string*/
 	puts("\"Programming is like building a multilingual puzzle");
-/**
- * returns null
- */
+/* returns null */
 	return (0);
 }
