@@ -11,11 +11,11 @@
 int main(void)
 {
 	int n; 
-	int lastdig;
+	long int lastdig;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	scanf(%d, n);
+	scanf("%d", n);
 	lastdig = n % 10;
 	
 	if (lastdig > 5)
