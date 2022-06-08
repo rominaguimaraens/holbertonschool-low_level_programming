@@ -10,17 +10,24 @@ int main(void)
 	int n;
 	int m;
  
-	for (n = '0'; n < '9'; n++)
-	{
-		putchar(n);
-		for (m = '1'; m <= '9'; m++)
+	for (n = '0'; m = '1'; n <= '9'; m++)
+	{	putchar(n);
+		if (m == n)
 		{
-			if (n == m)
-			{
-				continue;
-			}
-			putchar(m);
+			continue;
 		}
+		if (m == '10')
+		{
+			m = '1';
+			n++
+		}
+		else
+		{
+			putchar(m);
+			putchar(',');
+			putchar(' ');
+		}
+		
 	} 
 	putchar('\n');
 	return (0);
