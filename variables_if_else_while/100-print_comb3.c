@@ -15,7 +15,7 @@ int main(void)
 	while (n < '9')
 	{
 		putchar(n);
-		if (m = '9')
+		if (m == '9')
 		{
 			n++;
 		}
