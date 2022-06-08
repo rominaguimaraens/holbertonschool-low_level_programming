@@ -11,24 +11,21 @@ int main(void)
 	int m;
  	m = '1';
 
-	for (n = '0'; n <= '10'; m++)
+	for (n = '0'; n <= '9'; m++)
 	{	putchar(n);
 		if (m == n)
 		{
 			continue;
 		}
-		if (m == '10')
+		putchar(m);
+		putchar(',');
+		putchar(' ' );
+		if (m == '9')
 		{
 			m = '1';
 			n++;
 		}
 
-		else
-		{
-			putchar(m);
-			putchar(',');
-			putchar(' ');
-		}
 		
 	} 
 	putchar('\n');
