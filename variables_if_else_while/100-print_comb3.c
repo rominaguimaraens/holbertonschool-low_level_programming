@@ -17,7 +17,7 @@ int main(void)
 		putchar(n);
 		if (m = '9')
 		{
-			n++
+			n++;
 		}
 
 		if (m == n)
