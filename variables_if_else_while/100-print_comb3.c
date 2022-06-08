@@ -9,8 +9,9 @@ int main(void)
 {
 	int n;
 	int m;
- 
-	for (n = '0'; m = '1'; n <= '9'; m++)
+ 	m = '1'
+
+	for (n = '0'; n <= '9'; m++)
 	{	putchar(n);
 		if (m == n)
 		{
