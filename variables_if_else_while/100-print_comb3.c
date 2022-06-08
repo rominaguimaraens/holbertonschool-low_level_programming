@@ -17,11 +17,12 @@ int main(void)
 		{
 			continue;
 		}
-		if (m == '10')
+		if (m == 10)
 		{
 			m = '1';
-			n++
+			n++;
 		}
+
 		else
 		{
 			putchar(m);
