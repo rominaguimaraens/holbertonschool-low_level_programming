@@ -18,6 +18,7 @@ int main(void)
 		if (m == '9')
 		{
 			n++;
+			m = 1;
 		}
 
 		if (m == n)
