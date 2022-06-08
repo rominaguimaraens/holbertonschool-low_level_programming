@@ -11,13 +11,13 @@ int main(void)
 	int m;
  	m = '1';
 
-	for (n = '0'; n <= '9'; m++)
+	for (n = '0'; n <= '10'; m++)
 	{	putchar(n);
 		if (m == n)
 		{
 			continue;
 		}
-		if (m == 10)
+		if (m == '10')
 		{
 			m = '1';
 			n++;
