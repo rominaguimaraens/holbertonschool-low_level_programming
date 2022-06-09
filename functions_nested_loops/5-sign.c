@@ -4,7 +4,7 @@
 *
 * @n: number to chech
 *
-* return: returns o (Successful)
+* Return: returns o (Successful)
 */
 
 int print_sign(int n)
