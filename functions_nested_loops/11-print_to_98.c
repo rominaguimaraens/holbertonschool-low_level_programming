@@ -17,8 +17,8 @@ void print_to_98(int n)
 		else
 		{
 			putchar(n + 45);
-			putchar(',')
-			putchar(' ')
+			putchar(',');
+			putchar(' ');
 		}
 
 	}
