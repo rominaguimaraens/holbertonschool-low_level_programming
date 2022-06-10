@@ -28,6 +28,8 @@ int _abs(int i)
 /**
 * print_last_digit - prints last digit
 *
+*@n: number
+*
 * Return: absolute value of n (Success)
 */
 
