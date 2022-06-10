@@ -7,7 +7,9 @@
  */
 void print_most_numbers(void)
 {
-	for (n = '0'; n <= '9'; n++;)
+	char n;
+
+	for (n = '0'; n <= '9'; n++)
 	{
 		if ((n = '4' ) || (n = '4'))
 		{
