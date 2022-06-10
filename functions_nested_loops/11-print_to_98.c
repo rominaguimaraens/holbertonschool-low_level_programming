@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 #include <stdio.h>
 /**
 * print_to_98 - prints fomr n to 98
@@ -12,13 +12,13 @@ void print_to_98(int n)
 		n++;
 		if (n == 98)
 		{
-			putchar('n' + 48);
+			_putchar('n' + 48);
 		}
 		else
 		{
-			putchar('n' + 48);
-			putchar(',');
-			putchar(' ');
+			_putchar('n' + 48);
+			_putchar(',');
+			_putchar(' ');
 		}
 
 	}
