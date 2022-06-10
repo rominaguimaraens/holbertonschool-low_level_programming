@@ -12,11 +12,11 @@ void print_to_98(int n)
 		n++;
 		if (n == 98)
 		{
-			putchar(n + 45);
+			putchar(n + 48);
 		}
 		else
 		{
-			putchar(n + 45);
+			putchar(n + 48);
 			putchar(',');
 			putchar(' ');
 		}
