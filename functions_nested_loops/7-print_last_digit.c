@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* print_last_digit - prints last digit
+* _abs - absolute value of integrer
 *
-* Return: absolute value of n (Success)
+* @i: integrer
+*
+* Return: i
 */
 
 int _abs(int i)
@@ -22,6 +24,12 @@ int _abs(int i)
 	else
 		return (0);
 }
+
+/**
+* print_last_digit - prints last digit
+*
+* Return: absolute value of n (Success)
+*/
 
 int print_last_digit(int n)
 {
