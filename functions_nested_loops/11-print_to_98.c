@@ -8,13 +8,13 @@
 void print_to_98(int n)
 {
 	int m;
-	
+
 	if (n == 98)
 	{
 		printf("%d", n);
 		putchar(10);
 	}
-	if else (n < 98)
+	else if (n < 98)
 	{
 		for (m = n; m <= 98; m++)
 		{
@@ -30,11 +30,11 @@ void print_to_98(int n)
 			}
 		}
 	}
-	if else (n > 98)
+	else if (n > 98)
 	{
 		for (m = n; m >= 98; m--)
 		{
-			printf("%d"; m);
+			printf("%d", m);
 			if (m > 98)
 			{
 				putchar(',');
@@ -45,5 +45,5 @@ void print_to_98(int n)
 				putchar(10);
 			}
 		}
-	}	
+	}
 }
