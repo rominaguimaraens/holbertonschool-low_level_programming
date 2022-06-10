@@ -6,10 +6,27 @@
 * Return: absolute value of n (Success)
 */
 
+int _abs(int i)
+{
+	if (i >= 0)
+	{
+		return (i);
+	}
+
+	if (i < 0)
+	{
+		i = (i * (-1));
+		return (i);
+	}
+
+	else
+		return (0);
+}
+
 int print_last_digit(int n)
 {
 	n = n % 10;
 
-	_putchar(abs(n) + 48);
-	return (abs(n));
+	_putchar(_abs(n) + 48);
+	return (_abs(n));
 }
