@@ -19,6 +19,7 @@ void print_square(int size)
 		while (i <= size)
 		{
 			_putchar('#');
+			i++
 		}
 		_putchar(10);
 	}
