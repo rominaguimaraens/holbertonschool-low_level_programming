@@ -17,7 +17,7 @@ void print_square(int size)
 	}
 	else
 	{
-		while(l <= size)
+		while (l <= size)
 		{
 			i = 1;
 			l++;
