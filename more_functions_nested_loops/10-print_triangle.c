@@ -24,11 +24,11 @@ void print_triangle(int size)
 				_putchar(32);
 				s--;
 				i = 1;
-			}
-			while (i < l)
-			{
-				_putchar('#');
-				i++;
+				while (i < l)
+				{
+					_putchar('#');
+					i++;
+				}
 			}
 			_putchar(10);
 		}
