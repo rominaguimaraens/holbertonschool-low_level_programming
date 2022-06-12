@@ -18,7 +18,6 @@ void print_triangle(int size)
 		while (l <= size)
 		{
 			i  = 1;
-			l++;
 			while (i < l)
 			{
 				s = size;
@@ -31,6 +30,7 @@ void print_triangle(int size)
 				i++;
 			}
 			_putchar(10);
+			l++;
 		}
 	}
 }
