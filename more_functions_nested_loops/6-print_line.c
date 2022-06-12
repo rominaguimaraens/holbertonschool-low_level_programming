@@ -2,12 +2,14 @@
 /**
 * print_line - prints a line
 *
+* @n: lenght of line
+*
 * @ i: times it's printing
 */
 void print_line(int n)
 {
 	int i = 1;
-	
+
 	if (n <= 0)
 	{
 		_putchar(10);
@@ -19,6 +21,6 @@ void print_line(int n)
 			_putchar('_');
 			i++;
 		}
+		_putchar(10);
 	}
-	_putchar(10);
 }
