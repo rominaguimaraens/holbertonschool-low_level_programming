@@ -19,16 +19,16 @@ void print_triangle(int size)
 		{
 			s  = size;
 			l++;
-			while (s > l)
+			while (i < l)
 			{
-				_putchar(32);
-				s--;
-				i = 1;
-				while (i < l)
+				s = size;
+				while (s > l)
 				{
-					_putchar('#');
-					i++;
+					_putchar(32);
+					s--;
 				}
+				_putchar('#');
+				i++;
 			}
 			_putchar(10);
 		}
