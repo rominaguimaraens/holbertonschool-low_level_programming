@@ -18,7 +18,7 @@ void print_triangle(int size)
 		{
 			for (s = size; s > l; s--)
 			{
-				putchar(32);
+                                :x
 			}
 			for (i = 1; i <= s; i++)
 			{
