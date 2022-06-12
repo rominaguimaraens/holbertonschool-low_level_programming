@@ -2,8 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* printf - ...prints
-* @\\o/\n: part of the string you fool
 * Return: 0
 */
 
