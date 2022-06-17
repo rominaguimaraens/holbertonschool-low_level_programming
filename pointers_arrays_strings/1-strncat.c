@@ -3,18 +3,24 @@
 * _strncat - concatenates two strings
 * @dest: destination string
 * @src: other string
+* @n: number of characters
 * Return: returns dest
 */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j;
+	int k = 0;
 
 	while (dest[i])
 	{
 		i++;
 	}
-	for (j = 0; j < n; j++, i++)
+	while (src[k])
+	{
+		k++;
+	}
+	for (j = 0; j < n || j <= k; j++, i++)
 	{
 		dest[i] = src[j];
 	}
