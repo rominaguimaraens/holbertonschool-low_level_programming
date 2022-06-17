@@ -4,22 +4,16 @@
 * @a: array
 * @n: array length
 */
-void print_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
-	int j;
-	int c;
 	int i = 0;
+	int j;
 
-	while (a[i])
+	for (n = n - 1; i < n; i++, n--)
 	{
-		i++;
-	}
-
-	for (j = 0, i = i - 1; j < n; i--, j++)
-	{
-		c = a[i];
-		a[i] = a[j];
-		a[j] = c;
+		j = a[i];
+		a[i] = a[n];
+		a[n] = j;
 	}
 }
 
