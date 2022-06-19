@@ -20,7 +20,7 @@ int is_delimiter(char c)
 	return (0);
 }
 /**
- * capitalize - capitalizes lowercase
+ * cap - capitalizes lowercase
  * @c: char
  * Return: c
  */
