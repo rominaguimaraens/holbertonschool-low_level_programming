@@ -3,6 +3,7 @@
  * _helper - gets prime number
  * @i: divide by
  * @n: num to check
+ * Return: something
  */
 int _helper(int i, int n)
 {
@@ -22,6 +23,7 @@ int _helper(int i, int n)
 /**
  * is_prime_number - is it a prime number
  * @n: number to check
+ * Return: something
  */
 int is_prime_number(int n)
 {
