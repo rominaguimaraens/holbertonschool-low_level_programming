@@ -1,4 +1,4 @@
 #ifndef MAIN_H
-#define
+#define MAIN_H
 int _atoi(char *s);
 #endif
