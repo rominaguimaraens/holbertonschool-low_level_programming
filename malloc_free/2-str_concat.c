@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /*
- * str_concat - concatenates strings
+ * str_concat - GHJLJHK concatenates strings
  * @s1: string 1
  * @s2: string 2
  * Return: returns concatenated string
@@ -14,14 +14,6 @@ char *str_concat(char *s1, char *s2)
 	i = 0;
 	j = 0;
 
-	if (s1 == NULL)
-	{
-		return (NULL);
-	}
-	if (s2 == NULL)
-	{
-		return (NULL);
-	}
 	while (s1[i])
 	{
 		i++;
@@ -37,13 +29,19 @@ char *str_concat(char *s1, char *s2)
 	}
 	k = i + j;
 
-	for (l = 0; l < i; l++)
+	if (s1 != NULL)
 	{
-		s3[l] = s1[l];
+		for (l = 0; l < i; l++)
+		{
+			s3[l] = s1[l];
+		}
 	}
-	for (l = l, k = k, m = 0; l < k; l++, m++)
+	if (s2 != NULL)
 	{
-		s3[l] = s2[m];
+		for (l = l, k = k, m = 0; l < k; l++, m++)
+		{
+			s3[l] = s2[m];
+		}
 	}
 	s3[l] = '\0';
 	return (s3);
