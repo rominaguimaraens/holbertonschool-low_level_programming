@@ -28,6 +28,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 			free(loki);
 			return (NULL);
 		}
+		strcpy(loki->name, name);
+
 		loki->age = age;
 
 		loki->owner = malloc((strlen(owner)) * sizeof(char) + 1);
