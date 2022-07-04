@@ -1,11 +1,6 @@
-schoool: school
-	gcc main.o school.o -o school
-
-main.o: main.c
-	gcc -c main.c
-
-school.o: school.c
-	gcc -c school.c
+cc = gcc
+src = main.c school.c
+name = school
 
 all:
-	gcc main.o school.o -o school
+	$(cc) $(src) -o $(name)
