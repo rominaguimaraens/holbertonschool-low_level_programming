@@ -18,7 +18,11 @@ int set_bit(unsigned long int *n, unsigned int index)
 			*n = (num | copy);
 			return (1);
 		}
+		else
+			return (-1);
 	}
 	else
+	{
 		return (-1);
+	}
 }
