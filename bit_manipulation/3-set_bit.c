@@ -14,9 +14,10 @@ int set_bit(unsigned long int *n, unsigned int index)
 	if (n)
 	{
 		if (index <= 64)
-			return (num | copy);
-		else
-			return (-1);
+		{
+			*n = (num | copy);
+			return (1);
+		}
 	}
 	else
 		return (-1);
