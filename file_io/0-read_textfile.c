@@ -25,5 +25,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	written = write(1, buf, letters);
 	if (written == -1)
 		return (0);
+	close(file);
 	return (written);
 }
