@@ -2,18 +2,19 @@
 #include <stdio.h>
 #include <strings.h>
 /**
- * get_bit - returns value of bit at index
+ * set_bit - sets value of bit at index
  * @n: number
  * @index: position
  * Return: bit
  */
-int get_bit(unsigned long int n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned int i = 0;
 	unsigned int j = 64;
+	unsigned long int num = (1 << index), copy = *n;
 
 	if (index >= i && index < j)
-		return (n |= (1 << index));
+		return (num | copy);
 	else
 		return (-1);
 }
