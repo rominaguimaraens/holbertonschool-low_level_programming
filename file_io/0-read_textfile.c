@@ -8,15 +8,22 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int file;
-	char buf[letters + 1];
+	int written;
+	char *buf;
+
+	buf = malloc(sizeof(letters));
+
+	if (!buf)
+		return (0);
 
 	file = open(filename, O_RDONLY);
 
-	if (file == -1 | filename == NULL)
+	if (file == -1 || !filename)
 		return (0);
 	read(file, buf, letters);
-	buf[letters] = '\0';
-	
-	printf("%s\n", buf);
 
+	written = write(1, buf, letters);
+	if (written == -1)
+		return (0);
+	return (written);
 }
