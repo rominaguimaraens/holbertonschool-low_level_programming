@@ -13,8 +13,13 @@ int set_bit(unsigned long int *n, unsigned int index)
 	unsigned int j = 64;
 	unsigned long int num = (1 << index), copy = *n;
 
-	if (index >= i && index < j)
-		return (num | copy);
+	if (n)
+	{
+		if (index >= i && index < j)
+			return (num | copy);
+		else
+			return (-1);
+	}
 	else
 		return (-1);
 }
